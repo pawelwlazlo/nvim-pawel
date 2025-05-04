@@ -33,7 +33,7 @@ vim.keymap.set("v", "p", '#_dp', {desc = "Wkleja w trybie visual bez nadpisywani
 
 vim.keymap.set({"n", "v"}, "<leader>d", [["_d]], {desc= "Kasuje bez zamazywania schowka"})
 
-vim.keymap.set("n", "<C-c>", "nohl<CR>", {desc = "Czyszczenie podświetlonego wyszukiwania", silent = true })
+vim.keymap.set("n", "<C-c>", ":nohl<CR>", {desc = "Czyszczenie podświetlonego wyszukiwania", silent = true })
 
 vim.keymap.set("n", "<leader>fm", vim.lsp.buf.format)
 
