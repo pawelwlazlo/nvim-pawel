@@ -32,7 +32,7 @@ return {
         separator = "➜",
         group = "+",
       },
-      window = {
+      win = {
         border = "rounded",
         position = "bottom",
         margin = { 1, 0, 1, 0 },
@@ -45,7 +45,6 @@ return {
         spacing = 3,
         align = "left",
       },
-      ignore_missing = true,
     }
 
     -- Przykładowe grupowanie skrótów

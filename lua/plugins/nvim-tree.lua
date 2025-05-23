@@ -23,8 +23,8 @@ return {
 
     -- Mappings z leaderem
     local map = vim.keymap.set
-    map('n', '<leader>e', '<cmd>NvimTreeToggle<CR>', { desc = 'Przełącz eksplorator plików (nvim-tree)' })
-    map('n', '<leader>f', '<cmd>NvimTreeFocus<CR>', { desc = 'Skup widok nvim-tree' })
-    map('n', '<leader>r', '<cmd>NvimTreeRefresh<CR>', { desc = 'Odśwież nvim-tree' })
+    map('n', '<leader>ee', '<cmd>NvimTreeToggle<CR>', { desc = 'Przełącz eksplorator plików (nvim-tree)' })
+    map('n', '<leader>ef', '<cmd>NvimTreeFocus<CR>', { desc = 'Skup widok nvim-tree' })
+    map('n', '<leader>er', '<cmd>NvimTreeRefresh<CR>', { desc = 'Odśwież nvim-tree' })
   end,
 }
